@@ -93,7 +93,9 @@ export default function About() {
               </p>
             </div>
             <div className="pt-6">
-              <button className="btn-primary">Download Resume</button>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                Download Resume
+              </a>
             </div>
           </div>
 
